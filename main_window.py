@@ -15,6 +15,7 @@ class Diary(QWidget):
 
     def initUI(self):
         # Создаётся интерфейс
+
         self.setWindowFlag(Qt.FramelessWindowHint)
         self.setAttribute(Qt.WA_StyledBackground)
 
